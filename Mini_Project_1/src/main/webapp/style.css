@@ -1,0 +1,58 @@
+html{
+	height:100vh;
+}
+body{
+	background-image: url("wikiimage.jpeg");
+	background-size:104%;
+	background-repeat: no-repeat;
+}
+.head{
+	color:blue;
+	margin-left: 5%;
+}
+a:hover{
+	cursor:pointer;
+	color:red;
+}
+.subject{
+	    margin: -1% 0 0% 3%;
+	    width:75%;
+	    font-weight: 100;
+}
+#heading{
+	font-size: 60px;
+    margin-top: 8%;
+    color: aqua;
+    text-align: center;
+}
+#inputBox{
+	height: 75px;
+    border-radius: 50px;
+    width: 700px;
+    margin: 1% 0 0 32%;
+    font-size:40px;
+}
+#enter{
+	color: white;
+    height: 58px;
+    width: 109px;
+    font-size: 25px;
+    border-radius: 13px;
+    margin: 0% 0 0 1%;
+    background-color: #5D58F3;
+}
+#content{
+	height: 600px;
+    width: 45%;
+    background-color: white;
+    margin: 1% 0 0 28%;
+    border: 5px solid #BE51C8;
+    overflow:scroll;
+}
+#content::-webkit-scrollbar {
+    display: none;
+}
+a{
+	color: #0000ffdb;
+    text-decoration: none;
+}
